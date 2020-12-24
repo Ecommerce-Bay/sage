@@ -1,7 +1,7 @@
 <div class="page-header" style="display: flex;
     justify-content: center;
     align-items: center;">
-  <img src="<?= get_template_directory_uri(); ?>/dist/images/Screenshot_9.png">
+  <img src="<?= get_template_directory_uri(); ?>/dist/images/logo.png">
   <!-- <h1>{!! $title !!}</h1> -->
   <ul style="display: flex;
     width: 100%;

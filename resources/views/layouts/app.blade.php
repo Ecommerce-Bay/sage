@@ -11,5 +11,4 @@
     </aside>
   @endif
 </div>
-
 @include('partials.footer')

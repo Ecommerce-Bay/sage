@@ -13,9 +13,6 @@
 
   @while(have_posts()) @php(the_post())
     @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
-
-    <img src="https://google.com" alt="google">
-
   @endwhile
 
   {!! get_the_posts_navigation() !!}
@@ -24,6 +21,4 @@
 @section('sidebar')
   @include('partials.sidebar')
 @endsection
-@section('footer')
-  @include('partials.footer')
-@endsection
+
