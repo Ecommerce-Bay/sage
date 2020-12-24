@@ -88,6 +88,86 @@ a {
   }
 }
 
+.collaboration{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0065F2;
+  }
+  .collaboration-logos{
+    display: flex;
+    gap: 50px;
+    img{
+      object-fit: contain;
+    }
+  }
+}
+
+.banner-accurate{
+  height: 100vh;
+  background-color: #0065F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  p{
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+  }
+}
+
+.who-we-are{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0065F2;
+  }
+  h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #0065F2;
+  }
+  .information{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .item{
+      max-width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1{
+        font-size: 120px;
+        font-weight: bold;
+        color: transparent;
+        -webkit-text-stroke: 1px #0065F2;
+      }
+      p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: #0065F2;
+      }
+    }
+  }
+}
+
 .footer{
   .container{
     padding: 0;
