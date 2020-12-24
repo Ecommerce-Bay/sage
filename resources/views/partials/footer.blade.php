@@ -5,7 +5,7 @@
         <img src="<?= get_template_directory_uri(); ?>/dist/images/logo-footer.png">
         <div class="social-media">
           <a href="#">
-            <img src="<?= get_template_directory_uri(); ?>/dist/images/instagram.png">
+            <img src="<?= get_template_directory_uri(); ?>/dist/images/linkedin.png">
           </a>
           <a href="#">
             <img src="<?= get_template_directory_uri(); ?>/dist/images/facebook.png">
