@@ -4,3 +4,5 @@
 @include('components/collaboration')
 @include('components/banner-accurate')
 @include('components/who-we-are')
+@include('components/what-we-do')
+@include('components/slider-story')

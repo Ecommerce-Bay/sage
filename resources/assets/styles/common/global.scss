@@ -168,6 +168,205 @@ a {
   }
 }
 
+.what-we-do{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f8ff;
+  .title{
+    padding: 50px;
+    span{
+      font-size: 20px;
+      font-weight: 600;
+      color: #0065F2;
+      text-align: center;
+    }
+    h1{
+      font-size: 50px;
+      font-weight: bold;
+      color: #0065F2;
+    }
+  }
+  .satellite{
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    .number{
+      border-right: 1px solid blue;
+      width: 45%;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      span{
+        font-size: 120px;
+        font-weight: bold;
+        color: transparent;
+        -webkit-text-stroke: 1px #0065F2;
+      }
+    }
+    .option{
+      width: 55%;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      p{
+        width: 50%;
+        font-size: 12px;
+        font-weight: 300;
+        color: #0065F2;
+      }
+      h1{
+        font-size: 50px;
+        font-weight: bold;
+        color: #0065F2;
+      }
+    }
+    .block-white{
+      width: 450px;
+      height: 350px;
+      background-color: white;
+      position: absolute;
+      z-index: 0;
+      left: 22%;
+      top: 10%;
+    }
+  }
+  .aircraft{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    position: relative;
+    .divRight{
+      border-left: 1px solid blue;
+      width: 35%;
+      height: 85vh;
+      z-index: 1;
+    }
+    .option{
+      width: 65%;
+      height: 85vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 12%;
+      z-index: 1;
+      p{
+        width: 80%;
+        font-size: 12px;
+        font-weight: 300;
+        color: #0065F2;
+      }
+      h1{
+        font-size: 50px;
+        font-weight: bold;
+        color: #0065F2;
+      }
+      .button{
+        height: 35px;
+        margin-left: 30px;
+        border-radius: 17px;
+        border: none;
+        padding: 5px 20px;
+        background: #0065f2;
+        a{
+          color: white;
+        }
+      }
+      .number{
+        span{
+          font-size: 120px;
+          font-weight: bold;
+          color: transparent;
+          -webkit-text-stroke: 1px #0065F2;
+        }
+      }
+    }
+    .block-white{
+      width: 450px;
+      height: 350px;
+      background-color: white;
+      position: absolute;
+      z-index: 0;
+      right: 17%;
+      top: 20%;
+    }
+  }
+}
+
+.slider-story{
+  background-color: white;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  .carousel{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    .swiper-container {
+      width: 80%;
+      height: 70%;
+      border: 1px solid blue;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  }
+  .story{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    p{
+      font-size: 23px;
+      font-weight: 600;
+      color: #0065F2;
+    }
+    span{
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #0065F2;
+    }
+    .button{
+      width: 190px;
+      height: 35px;
+      margin-top: 20px;
+      border-radius: 17px;
+      border: none;
+      padding: 5px 20px;
+      background: #0065f2;
+      a{
+        color: white;
+      }
+    }
+  }
+}
+
 .footer{
   .container{
     padding: 0;
