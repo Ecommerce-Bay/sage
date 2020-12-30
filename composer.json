@@ -40,7 +40,8 @@
   },
   "require": {
     "php": "^7.2.5",
-    "roots/acorn": "^1.1"
+    "roots/acorn": "^1.1",
+    "soberwp/controller": "2.1.2"
   },
   "require-dev": {
     "filp/whoops": "^2.7",

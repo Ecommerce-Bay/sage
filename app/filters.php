@@ -14,3 +14,8 @@ namespace App;
 add_filter('excerpt_more', function () {
     return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 });
+
+add_filter('sober/controller/namespace', function () {
+    return 'Data';
+});
+    
